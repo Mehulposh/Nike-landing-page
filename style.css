@@ -134,6 +134,7 @@ nav{
     text-transform: capitalize;
     position: absolute;
     bottom: 25%;
+    padding-left: 10px;
 }
 
 .catagory{
@@ -141,6 +142,7 @@ nav{
     text-transform: capitalize;
     position: absolute;
     bottom: 20%;
+    padding-left: 10px;
 }
 
 .price{
@@ -149,4 +151,5 @@ nav{
     text-transform: capitalize;
     position: absolute;
     bottom: 5%;
+    padding-left: 10px;
 }
