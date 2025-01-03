@@ -96,6 +96,7 @@ nav{
     padding: 12px 40px;
     border: none;
     border-top-left-radius: 0;
+    cursor: pointer;
 }
 
 .content-right{
