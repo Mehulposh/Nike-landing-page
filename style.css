@@ -167,3 +167,40 @@ nav{
     bottom: 5%;
     padding-left: 10px;
 }
+
+#contact{
+    margin-top: 20px;
+}
+
+#contact h3{
+    text-align: center;
+    color: #000;
+
+}
+
+#contact hr{
+    width: 100px;
+    margin: auto;
+    border: 3px solid orange;
+}
+
+.contact_info{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact_info div{
+    border: 2px solid orange;
+    background-color: antiquewhite;
+    flex: 1;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    overflow-y: auto;
+}
