@@ -10,13 +10,17 @@ body{
     font-family: "Inter", serif;
     font-weight: 400;
     background-color: #d0d4d5;
+    
+   
 }
 
 main{
-    height: calc(100vh-100px);
+    height: calc(100vh - 100px);
     width: 100%;
     position: relative;
     display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
 }
 
 nav{
@@ -132,7 +136,7 @@ nav{
 .product:hover{
     transform: scale(1.1); /* Enlarges the element */
     box-shadow: 15px 15px 25px -4px rgba(31, 26, 31, 0.6); 
-    z-index: 10;
+    z-index: 2;
 }
 
 .product img{
@@ -166,4 +170,41 @@ nav{
     position: absolute;
     bottom: 5%;
     padding-left: 10px;
+}
+
+#contact{
+    margin-top: 20px;
+}
+
+#contact h3{
+    text-align: center;
+    color: #000;
+
+}
+
+#contact hr{
+    width: 100px;
+    margin: auto;
+    border: 3px solid orange;
+}
+
+.contact_info{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contact_info div{
+    border: 2px solid orange;
+    background-color: antiquewhite;
+    flex: 1;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    overflow-y: auto;
 }

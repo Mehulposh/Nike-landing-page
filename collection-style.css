@@ -87,10 +87,10 @@ nav{
 .product:hover{
     transform: scale(1.1); /* Enlarges the element */
     box-shadow: 15px 15px 25px -4px rgba(31, 26, 31, 0.6); 
-    z-index: 10;
+    z-index: 2;
 }
 
-.product:: ::-webkit-scrollbar{
+.product::-webkit-scrollbar{
     display: none;
 }
 .product img{
