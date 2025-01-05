@@ -18,6 +18,7 @@ main{
     position: relative;
     display: flex;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -53,6 +54,10 @@ nav{
     text-transform: uppercase;
 }
 
+.list a{
+    text-decoration: none;
+    color:#000;
+}
 .nav-part-2{
     margin-right: 40px;
     font-size: 25px;
@@ -85,6 +90,7 @@ nav{
     color: #555;
     margin-bottom: 30px;
     width: 80%;
+    text-align: justify;
 }
 
 .btn{
@@ -120,6 +126,13 @@ nav{
     margin-right: 20px;
     display: inline-block;
     cursor: pointer;
+    z-index: 1;
+}
+
+.product:hover{
+    transform: scale(1.1); /* Enlarges the element */
+    box-shadow: 15px 15px 25px -4px rgba(31, 26, 31, 0.6); 
+    z-index: 10;
 }
 
 .product img{
