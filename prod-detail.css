@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body{
+    font-family: "Inter", serif;
+    font-weight: 400;
+    background-color: #d0d4d5;
+    
+   
+}
+
+main{
+    height: calc(100vh - 100px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+.navbar-brand img{
+    height: 100px;
+    width: auto;
+    margin-right: 100px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.prod-card{
+    height: 370px;
+    width: 250px;
+    background-color: #1011;
+    box-shadow: 10px 10px 17px -4px rgba(31,26,31,0.51);
+    position: relative;
+    margin-right: 20px;
+    
+    cursor: pointer;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.prod-card img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 20%;
+    object-fit: contain;
+
+}
+
+.prod-card h4{
+    font-size: 19px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 25%;
+    padding-left: 10px;
+}
+
+.catagory-1{
+    font-size: 19px;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 10px;
+}
+
+.price-1{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 5%;
+    padding-left: 10px;
+}
